@@ -1,0 +1,19 @@
+[project]
+name = "llm-qa-with-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Olaism", email = "iaolawuyi@student.oauife.edu.ng" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=1.2.16",
+]
+
+[project.scripts]
+llm-qa-with-langgraph = "llm_qa_with_langgraph:main"
+
+[build-system]
+requires = ["uv_build>=0.12.16,<0.13.0"]
+build-backend = "uv_build"
